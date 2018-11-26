@@ -1,0 +1,111 @@
+body{
+    background-color: #273746;
+}
+
+/* Title */
+h1{
+    text-align: center;
+    color: #2E86C1;
+}
+
+/* Form */
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form input, .form button{
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    padding: 10px;
+}
+
+.form input:focus, .form button:focus{
+    outline: none;
+}
+
+.form input{
+    background-color: #566573;
+    color: #fff;
+}
+
+input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #E5E8E8;
+}
+input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+    color: #E5E8E8;
+}
+input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+    color: #E5E8E8;
+}
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+    color: #E5E8E8;
+}
+
+.form button{
+    background-color: #1A5276;
+
+    color: #16A085;
+    transition: 0.5s;
+}
+
+.form button:hover{
+    background-color: #16A085;
+    color: #1A5276;
+}
+
+/* End Form */
+
+
+/* Result Container */
+#container{
+    width: 60%;
+    margin: 25px auto;
+    height: 80vh;
+    overflow-y: auto;
+}
+/* End Result Container */
+
+
+/* Result Table */
+table{
+    width: 100%;
+}
+
+tr th, tr td{
+    width: 20%;
+    text-align: center;
+}
+
+table tr th{
+    background-color: #2C3E50;
+    padding: 25px;
+    color: #239B56;
+}
+
+tr:nth-child(odd){
+    background-color: #566573;
+}
+
+tr:nth-child(even){
+    background-color: #808B96;
+}
+
+table tr img{
+    width: 80px;
+}
+
+/* End Table */
+
+
+/* Error Message */
+.err{
+    color: #CB4335;
+    text-align: center;
+}
+/* End Error Message */
